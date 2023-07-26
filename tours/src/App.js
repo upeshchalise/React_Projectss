@@ -39,7 +39,7 @@ function App() {
     return (
       <section className="app">
         <div className="title">
-          <h1>Np tours left</h1>
+          <h1>No tours left</h1>
         </div>
         <button onClick={fetchTours}> Refresh</button>
       </section>
