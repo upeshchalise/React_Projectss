@@ -4,7 +4,7 @@ import {
   removeItem,
   increaseAmt,
   decreaseAmt,
-} from "../features/carts/cartReducer";
+} from "../features/carts/cartSlice";
 
 const CartItem = ({ id, img, title, price, amount }) => {
   const dispatch = useDispatch();

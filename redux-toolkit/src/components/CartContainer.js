@@ -1,6 +1,6 @@
 import CartItem from "./CartItem";
 import { useSelector, useDispatch } from "react-redux";
-import { clearCart } from "../features/carts/cartReducer";
+import { clearCart } from "../features/carts/cartSlice";
 
 const CartContainer = () => {
   const { amount, total, cartItems } = useSelector((store) => store.cart);
