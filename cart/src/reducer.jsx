@@ -33,7 +33,7 @@ const reducer = (state, action) => {
       })
       .filter((cartItem) => cartItem.amount !== 0);
     return {
-      ...state,
+      ...state, 
       cart: tempCart,
     };
   }
